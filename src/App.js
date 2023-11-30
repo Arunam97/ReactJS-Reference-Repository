@@ -1,9 +1,13 @@
 import './App.css';
+import Home from "./components/Home";
 
 function App() {
-  return (
-      <p>Text from App.js</p>
-  );
+
+    return (
+        <main>
+            <Home />
+        </main>
+    );
 }
 
 export default App;
