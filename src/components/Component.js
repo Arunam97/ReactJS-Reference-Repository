@@ -1,9 +1,7 @@
-function Component(props) {
+function Component() {
     return (
         <>
             <h1>Component.js</h1>
-            <p>{props.children}</p>
-            <p>Last line of Component.js</p>
         </>
     );
 }
